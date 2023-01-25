@@ -5,14 +5,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    transition: 0.4s;
+ 
 }
 
 body
 {
     font-family: 'Jura', sans-serif;
-    font-weight: 700;
+    scroll-behavior: smooth;
+    transition: 0.4s;
 }
 
 /* navbar */
