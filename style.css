@@ -22,7 +22,7 @@ nav ul
     z-index: 999;
     list-style-type: none;
     background-color: rgba(189,190,190,0.8); 
-    height: 60px;
+    height: 70px;
     display: flex;
     justify-content:flex-start;
     /* position: relative; */
