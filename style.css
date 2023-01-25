@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body
+{
+    font-family: 'Jura', sans-serif;
+    /* background-image: url(./assets/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+/* navbar */
+nav ul
+{
+    z-index: 999;
+    list-style-type: none;
+    background-color: rgba(189,190,190,0.6); 
+    height: 70px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+nav ul li a
+{
+    color: white;
+    padding: 0.8em;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    margin: 0 3em;
+}
+
+.nav-left li:hover,
+.nav-right li:hover
+{
+    background-color: red;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.nav-left
+{
+    display: flex;
+    justify-content:flex-evenly;
+}
+
+.nav-right
+{
+    position: absolute;
+    right: 8%;
+    margin: 0.2em 0;
+}
+
+#contact
+{
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* main */
+.warp-club
+{
+    display: flex;
+}
+
+.column1 img
+{
+    width: 50vw;
+    height: 90vh;
+}
+.column1
+{
+    width: 50vw;
+    position: relative;
+}
+
+.column1 h1{
+    font-size: 80px;
+    line-height: 2;
+    color: red;
+    writing-mode:vertical-lr;
+    position: absolute;
+    top: 20%;
+    left:45%;
+}
+
+.column2 img
+{
+    width: 50vw;
+    height: 90vh;
+    object-fit: cover;
+}
