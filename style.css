@@ -11,8 +11,9 @@
 body
 {
     font-family: 'Jura', sans-serif;
-    scroll-behavior: smooth;
-    transition: 0.4s;
+    background-image: url(./assets/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* navbar */
@@ -73,12 +74,8 @@ nav ul li a
 
 .column1
 {
-    position: relative;
-}
-.column1 img
-{
     width: 50vw;
-    height: 700px;
+    position: relative;
 }
 
 .column1 h1{
@@ -89,12 +86,11 @@ nav ul li a
     position: absolute;
     top: 20%;
     left:45%;
-
 }
 
 .column2 img
 {
     width: 50vw;
-    height: 700px;
-    object-fit: fill;
+    height: 90vh;
+    object-fit: cover;
 }
