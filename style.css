@@ -73,28 +73,28 @@ nav ul li a
 
 .column1
 {
-    width: 50vw;
-    height: 700px;
-    background-image: url(./assets/background.jpg);
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
-
-.column1 h1{
-    font-size: 90px;
-    line-height: 1.5;
-    color: red;
-    writing-mode:vertical-lr;
-
-}
-
-.column2
+.column1 img
 {
     width: 50vw;
     height: 700px;
-    background-image: url(./assets/main.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.column1 h1{
+    font-size: 80px;
+    line-height: 2;
+    color: red;
+    writing-mode:vertical-lr;
+    position: absolute;
+    top: 20%;
+    left:45%;
+
+}
+
+.column2 img
+{
+    width: 50vw;
+    height: 700px;
+    object-fit: fill;
 }
